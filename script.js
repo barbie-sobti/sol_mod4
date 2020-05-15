@@ -58,17 +58,17 @@ for (var i = 0; i < names.length; i++) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  // console.log(firstLetter);
+  
   console.log(firstLetter==='j');
   if (firstLetter === 'j') {
     speakWord = "goodbye";
     johnGreeter.byeSpeaker(names[i]);
-    // console.log("if part");
+    
   } else {
     speakWord = "hello";
-    // console.log("exe else");
+    
     barbieGreeter.helloSpeaker(names[i]);
-    // console.log("else");
+
   }
 }
 
